@@ -3,7 +3,7 @@
 Created on Mon May 14 14:44:10 2018
 @author: Bhavani
 """
-
+import numpy
 import theano
 import theano.tensor as T
 from theano import function

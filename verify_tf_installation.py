@@ -2,6 +2,10 @@
 
 import tensorflow as tf
 
+
+
+print("TensorFlow Version {}:".format(tf.VERSION))
+
 hello = tf.constant("Hello , Tensorflow!")
 session= tf.Session()
 print(session.run(hello))
